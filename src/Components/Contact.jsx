@@ -22,7 +22,14 @@ function Contact(){
 
    <div className="flex gap-2 items-center hover:scale-105 rounded-xl shadow-xl p-2 md:p-4">
   <FaLinkedin/>
-<span>Linkedincard</span>
+<a
+  href="https://www.linkedin.com/in/mukesh-v-2905832ab"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-blue-500 hover:text-blue-700"
+>
+  LinkedIn
+</a>
   </div>
 
   <a  href="/resume.pdf"
